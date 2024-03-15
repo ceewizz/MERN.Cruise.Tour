@@ -6,7 +6,8 @@ This project is to build an application for people who loves to explore the worl
 
 
 
-
+#### Contributors
+Chris Huynh
 
 
     
