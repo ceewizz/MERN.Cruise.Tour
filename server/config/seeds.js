@@ -44,7 +44,7 @@ db.once('open', async () => {
         },
         {
             name: 'Group Package 4 days Baja Mexico',
-            description: 'Destination sailing starts from Long beach.  Note: For 3 Person(s) we commend the Partner + Solo Package. For 2 Person(s) we recommend the Partner Package.  Price includes a 2 rooms 2 person(s) per room if you are in a group of odd numbers then one person will have to share a room with another random traveler. 3 free dinner buffet tickets per person,  On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
+            description: 'Destination sailing starts from Long beach.  Note: For 3 Person(s) we commend the Partner + Solo Package. For 2 Person(s) we recommend the Partner Package.  Price includes a 2 rooms 2 person(s) per room if you are in a group of odd numbers then one person will have to share a room with another random traveler. 1 free dinner buffet tickets per person,  On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
             image: '',
             category: categories[1]._id,
             price: 1000,
@@ -60,7 +60,7 @@ db.once('open', async () => {
         },
         {
             name: 'Solo Package 7 Days Europe',
-            description: 'Price shown are Individual Ticket. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room.  Note: if travel alone you will be pair up with a random traveler per room. one free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
+            description: 'Price shown are Individual Ticket. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room.  Note: if travel alone you will be pair up with a random traveler per room. 3 free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
             image: '',
             category: categories[2]._id,
             price: 1000.00,
@@ -68,7 +68,7 @@ db.once('open', async () => {
         },
         {
             name: 'Partner Package 7 Days Europe',
-            description: 'Price shown are for Couple or 2 People Ticket. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room.  Note: if travel alone you will be pair up with a random traveler per room. one free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
+            description: 'Price shown are for Couple or 2 People Ticket. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room.  Note: if travel alone you will be pair up with a random traveler per room. 3 free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
             image: '',
             category: categories[3]._id,
             price: 2000.00,
