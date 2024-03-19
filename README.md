@@ -1,4 +1,4 @@
-# MERN.World.Tour
+# MERN.Cruise.Tour
 Project 3: MERN Stack Single-Page Application
 
 ## Description
