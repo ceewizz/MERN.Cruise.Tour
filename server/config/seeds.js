@@ -19,7 +19,7 @@ db.once('open', async () => {
         {
             name: 'Family Package 4 days Baja Mexico',
             description: 'This package is a family package is for a Family of 4 for 4 days cruise starting from  Long beach > Catalina > Ensenada > Back to Long Beach. Prices includes a 2 room 2 person(s) per room, one free Buffet per family of 4 is included. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: 'family4.jpg',
+            image: 'family4.png',
             category: categories[0]._id,
             price: 1000.00,
             quantity: 20
@@ -27,7 +27,7 @@ db.once('open', async () => {
         {
             name: 'Family Package 7 days Europe',
             description: 'Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room. 3 free dinner buffet ticket per person for a family of 4,  On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: 'family7.jpg',
+            image: 'family7.png',
             category: categories[0]._id,
             price: 4000.00,
             quantity: 20
@@ -36,7 +36,7 @@ db.once('open', async () => {
         {
             name: 'Group Package 7 Days Europe',
             description: 'Price shown are for groups of Maximum 4 Person(s). Note: For 3 Person(s) we commend the Partner + Solo Package. For 2 Person(s) we recommend the Partner Package. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room if you are in a group of odd numbers then one person will have to share a room with another random traveler. 3 free dinner buffet tickets per person,  On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: '',
+            image: 'group7.png',
             category: categories[1]._id,
             price: 4000.00,
             quantity: 20
@@ -45,7 +45,7 @@ db.once('open', async () => {
         {
             name: 'Group Package 4 days Baja Mexico',
             description: 'Destination sailing starts from Long beach.  Note: For 3 Person(s) we commend the Partner + Solo Package. For 2 Person(s) we recommend the Partner Package.  Price includes a 2 rooms 2 person(s) per room if you are in a group of odd numbers then one person will have to share a room with another random traveler. 1 free dinner buffet tickets per person,  On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: '',
+            image: 'group4.png',
             category: categories[1]._id,
             price: 1000,
             quantity: 20
@@ -53,7 +53,7 @@ db.once('open', async () => {
         {
             name: 'Solo Package 4 days Baja Mexico',
             description: 'This package is a solo package is for 4 days cruise starting from  Long beach > Catalina > Ensenada > Back to Long Beach. Prices includes a 2 room 2 person(s) per room. Note: if travel alone you will be pair up with a random traveler per room. one free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: '',
+            image: 'solo4.png',
             category: categories[2]._id,
             price: 250.00,
             quantity: 40  
@@ -61,7 +61,7 @@ db.once('open', async () => {
         {
             name: 'Solo Package 7 Days Europe',
             description: 'Price shown are Individual Ticket. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room.  Note: if travel alone you will be pair up with a random traveler per room. 3 free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: '',
+            image: 'solo7.png',
             category: categories[2]._id,
             price: 1000.00,
             quantity: 40   
@@ -69,7 +69,7 @@ db.once('open', async () => {
         {
             name: 'Partner Package 7 Days Europe',
             description: 'Price shown are for Couple or 2 People Ticket. Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room.  Note: if travel alone you will be pair up with a random traveler per room. 3 free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: '',
+            image: 'partner7.png',
             category: categories[3]._id,
             price: 2000.00,
             quantity: 40   
@@ -77,7 +77,7 @@ db.once('open', async () => {
         {
             name: 'Partner Package 4 Days Baja Mexico',
             description: 'This package is a Partner Couple 2 People Tickets for 4 days cruise starting from  Long beach > Catalina > Ensenada > Back to Long Beach. Prices includes a 2 room 2 person(s) per room. Note: if travel alone you will be pair up with a random traveler per room. one free Buffet per person. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: '',
+            image: 'partner4.png',
             category: categories[3]._id,
             price: 500.00,
             quantity: 40   
