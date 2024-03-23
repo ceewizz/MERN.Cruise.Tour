@@ -15,6 +15,9 @@ This project is to build an application for people who loves the ocean. Travel t
 Chris Huynh
 
 
+##### Credits
+https://lordicon.com/
+
     
 
 
