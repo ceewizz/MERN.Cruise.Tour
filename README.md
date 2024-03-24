@@ -16,8 +16,10 @@ Chris Huynh
 
 
 ##### Credits
+-Loader gif icon.
 https://lordicon.com/
 
+-Carnival Cruise for images and some trips options used as examples for this Project.
 https://www.carnival.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQA73iNwbvjb6Cd8UVrUT6hCSl3_S8un3MFqRlaMvjasVfEdn8Wv56qxoCBhMQAvD_BwE&gclsrc=aw.ds 
     
 
