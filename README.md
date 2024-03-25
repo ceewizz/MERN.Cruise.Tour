@@ -24,4 +24,4 @@ https://www.carnival.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQA73iNwbvjb6
     
 
 
-contact us:
+Deployed app :  https://mern-cruise-tour-2effb68af27d.herokuapp.com/
