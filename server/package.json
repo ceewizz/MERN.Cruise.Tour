@@ -1,18 +1,17 @@
 {
-  "name": "mern.cruise.tour",
+  "name": "mern-cruise-tour",
   "version": "1.0.0",
-  "description": "Project 3: MERN Stack Single-Page Application",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js",
+    "start": "node server.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^3.13.0",
     "bcrypt": "^5.1.1",
-    "concurrently": "^8.2.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.1",
     "graphql": "^16.8.1",
