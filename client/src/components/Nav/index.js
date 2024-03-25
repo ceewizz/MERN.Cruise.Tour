@@ -1,7 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-import { FaAccusoft } from 'react-icons/fa'
+import { FaAccusoft } from "react-icons/fa";
 
 function Nav() {
 

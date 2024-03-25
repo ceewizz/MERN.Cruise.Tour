@@ -43,7 +43,7 @@ function Success() {
             </div>
             <div className="sr-section completed-view">
               <div className="sr-callout">
-                <pre>{JSON.stringify(session, null, 2)}</pre>
+             
               </div>
               </div>
 </div>
