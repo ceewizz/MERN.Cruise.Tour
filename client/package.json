@@ -1,5 +1,5 @@
 {
-  "name": "mern.world.tour",
+  "name": "mern.cruise.tour",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "apollo-link-context": "^1.0.20",
-    "@babel/plugin-proposal-private-property-in-object";
     "bootstrap": "^5.3.3",
     "date-fns": "^3.5.0",
     "emailjs": "^4.0.3",
