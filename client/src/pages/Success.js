@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useEffect } from 'react'
 import { useMutation } from '@apollo/client';
 
 import { ADD_ORDER } from '../utils/mutations';
@@ -31,25 +31,8 @@ function Success() {
   }, [addOrder]);
 
 
-    return (
-        <div className="sr-root">
-          <div className="sr-main">
-            <header className="sr-header">
-              <div className="sr-header__logo"></div>
-            </header>
-            <div className="sr-payment-summary completed-view">
-              <h1>Your payment succeeded</h1>
-              <h4>View CheckoutSession response:</h4>
-            </div>
-            <div className="sr-section completed-view">
-              <div className="sr-callout">
-             
-              </div>
-              </div>
-</div>
 
-</div>
-    );
+    
 };
 
 export default Success;
