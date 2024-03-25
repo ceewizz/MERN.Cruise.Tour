@@ -9,8 +9,7 @@ import { useStoreContext } from '../../utils/GlobalState';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 
 import './style.css';
-import { BiShocked } from 'react-icons/bi';
-import { BsCartFill } from 'react-icons/bs';
+
 
 
 const stripePromise = loadStripe('pk_test_51OwcnoRwDCl99wsRX54l2U8TbH2SnGgp4vcyNIIWVZcRZcnT9JWdMO0hhHt7S6NVoE2EGzHIXKuD4QjhyY4GYX27007vGNNcqu');
