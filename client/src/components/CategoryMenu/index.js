@@ -58,9 +58,7 @@ function CategoryMenu() {
         </button>
       ))}
     
-      <div>
-       
-      </div>
+    
     </div>
 
 

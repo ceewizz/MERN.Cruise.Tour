@@ -68,7 +68,8 @@ const Cart = () => {
     if (!state.cartOpen) {
       return (
         <div className="cart-closed" onClick={toggleCart}>
-        <span role="img" aria-label="trash">< BsCartFill style={{fontSize:'45px',justifyContent:'center'}} />
+        <span role="img" aria-label="trash">
+      🗑️
   </span>
         </div>
       );
@@ -98,8 +99,8 @@ const Cart = () => {
           </div>
         ) : (
           <h3>
-            <span role="img" aria-label="shocked">< BiShocked style={{color: 'teal', fontSize: '50px'}}/></span>
-           Please add your choice Tour Package.
+            <span role="img" aria-label="shocked">🫤 </span>
+            Just shopping around?
           </h3>
         )}
       </div>

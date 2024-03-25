@@ -1,5 +1,6 @@
 import  { useEffect } from 'react'
 import { useMutation } from '@apollo/client';
+import Jumbotron from '../components/Jumbotron'
 
 import { ADD_ORDER } from '../utils/mutations';
 import { idbPromise } from '../utils/helpers';
@@ -30,9 +31,18 @@ function Success() {
     saveOrder();
   }, [addOrder]);
 
-
+  return (
+    <div>
+      <Jumbotron>
+      <h1>Success!</h1>
+        <h2>Good Choice</h2>
+        <h2>Let's Take You Back Home</h2>
+      </Jumbotron>
+    </div>
+  );
+}
 
     
-};
+
 
 export default Success;
