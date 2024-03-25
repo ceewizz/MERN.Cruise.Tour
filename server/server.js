@@ -16,9 +16,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   context: authMiddleware,
-  // Make sure playground is running when deploying
-  introspection: true,
-  playground: true,
+
 });
 
 app.use(express.urlencoded({ extended: false }));
