@@ -1,9 +1,11 @@
-import {jwtDecode} from 'jwt-decode';
+const { default: jwt_decode } = require("jwt-decode");
+
 
 class AuthService {
   getProfile() {
-    return jwtDecode(this.getToken());
+    return jwt_decode(this.getToken());
   }
+
 
   loggedIn() {
     // Checking login credentials and timeouts
@@ -13,7 +15,7 @@ class AuthService {
 
   isTokenExpired(token) {
     try {
-      const decoded = jwtDecode(token);
+      const decoded = jwt_decode(token);
       if (decoded.exp < Date.now() / 1000) {
         return true;
       } else return false;
@@ -40,6 +42,6 @@ class AuthService {
     
     window.location.assign('/');
   }
-}
+};
 
 export default new AuthService();
