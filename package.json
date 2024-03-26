@@ -2,32 +2,19 @@
   "name": "mern.cruise.tour",
   "version": "1.0.0",
   "description": "Project 3: MERN Stack Single-Page Application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server --ignore client",
+    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@apollo/client": "^3.9.9",
-    "apollo-server-express": "^3.13.0",
-    "bcrypt": "^5.1.1",
-    "concurrently": "^8.2.2",
-    "dotenv": "^16.4.5",
-    "emailjs": "^4.0.3",
-    "emailjs-com": "^3.2.0",
-    "express": "^4.19.1",
-    "graphql": "^16.8.1",
-    "jsonwebtoken": "^9.0.2",
-    "jwt-decode": "^4.0.0",
-    "mongoose": "^8.2.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.51.1",
-    "reactstrap": "^9.2.2",
-    "stripe": "^14.22.0",
-    "validator": "^13.11.0",
-    "web-vitals": "^3.5.2"
+    "concurrently": "^8.2.2"
   }
 }
