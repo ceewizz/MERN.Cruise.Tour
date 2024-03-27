@@ -2,12 +2,12 @@
 
 
 :root {
-  --primary: #08a2da;
-  --secondary: #8acffa;
-  --tertiary: #3a0d6f;
-  --light: #e8f8f8;
-  --dark: #00080b;
-  --error: rgb(56, 38, 33);
+  --primary: blue;
+  --secondary: aqua;
+  --tertiary: purple  ;
+  --light: lightblue;
+  --dark: black;
+  --error: red (56, 38, 33);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
 }
@@ -19,7 +19,7 @@
 html,
 body {
   min-height: 100%;
-  background-color: white;
+  background-color: lightskyblue !important;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -103,10 +103,14 @@ header img {
   background-color: var(--light);
 }
 
-/* Slider */
+
 
 img, svg {
-  padding-top: 10px;
+  color: black;
+  resize: auto;
+  min-width: none;
+  max-width: 50%;
+  
 
 }
 
@@ -147,14 +151,16 @@ span[role="img"] {
 
 
 
+
+
 form {
   width: 100%;
-  background-color: white;
+  background-color: aquamarine !important;
 }
 
 input {
   font-size: 1rem;
-  /* padding: 0.25rem; */
+ padding: 0.25rem; 
   padding-left: 20rem;
   border: 2px solid var(--dark);
   outline: none;
@@ -286,12 +292,6 @@ input:focus {
 
 /* Media Screen */
 
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
-  }
-}
 /* Media Screen - Contact */
 @media (max-width: 768px) {
   .submit-message {
@@ -312,3 +312,4 @@ input:focus {
      font-size: medium;
   }
 }
+

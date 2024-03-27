@@ -13,19 +13,19 @@ import {
 
 const items = [
   {
-    src: './public/images/cruise24.jpg',
+    src: 'https://freeimage.host/i/JjGzlMx',
     altText: '',
     caption: 'Enjoy great meals while joining us with our awesome Carnival Celebration!',
     key: 1,
   },
   {
-    src: './public/images/bajacruise24.jpg',
+    src: 'https://freeimage.host/i/JjGzYZb',
     altText: '',
     caption: 'Enjoy the onboard Swimming pool with movie theater at night while exploring some of the great places in Baja Mexico',
     key: 2,
   },
   {
-    src: './public/images/europecruise24.jpg',
+    src: 'https://freeimage.host/i/JjGzcnj',
     altText: '',
     caption: 'Create unforgettable memories here with the Europe Cruise',
     key: 3,
