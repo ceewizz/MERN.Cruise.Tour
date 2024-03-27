@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { BsTelephone } from 'react-icons/bs';
-
+import aboutImg from "../../client/src/about.png";
 
 const Contact = () => {
   const {
@@ -80,8 +80,8 @@ const Contact = () => {
                   <h1>About Us</h1>
                   <br></br>
                   <br></br>
-                  <p>We arclient/public/images/about.pnge independent broker representing many Cruises Tour Package Deals, Where you Can find the best deal with us. We are a trusted by many others and proud to have sold over 1,000,000 tickets overall and approximately over 10,000 tickets a year. We also help with Visa for Travel.  </p>
-                  <img src="./client/public/images/about.png" alt="About"></img>
+                  <p>We are independent broker representing many Cruises Tour Package Deals, Where you Can find the best deal with us. We are a trusted by many others and proud to have sold over 1,000,000 tickets overall and approximately over 10,000 tickets a year. We also help with Visa for Travel.  </p>
+                  <img src={aboutImg} alt="About" />
                   <br></br>
                   {/* Contact */}
                   <h1>Contact Us</h1>
