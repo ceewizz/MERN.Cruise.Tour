@@ -52,8 +52,15 @@ npm run seed
 run develop
 
 
+
 ![alt text](mvcpattern.png)
 
+and more ss
+![alt text](client/public/images/homepage.png)
+
+![alt text](client/public/images/packagespage.png)
+
+![alt text](client/public/images/solopackage.png)
 
 
 ![alt text](family4.png)
