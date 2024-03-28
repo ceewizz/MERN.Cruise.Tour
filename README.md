@@ -83,4 +83,9 @@ How to integrate Stripe with a React Application
 Apollo Documentation
 
 
-Deployed app :     https://mern-cruise-tour-01efbbed0b66.herokuapp.com/
+
+##### Links
+<a href src =  "https://github.com/ceewizz/MERN.Cruise.Tour/blob/main/README.md"> Github Repo </a>
+
+<p> And </p>
+<a href src ="https://mern-cruise-tour.onrender.com">Deployed</a>

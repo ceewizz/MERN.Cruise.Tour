@@ -7,7 +7,7 @@
     min-width: 25%;
     max-width: 35%;
     max-height: 65%;
-    background-color: var(--medium);
+    background-color: burlywood !important;
     overflow: auto;
     padding: .5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
