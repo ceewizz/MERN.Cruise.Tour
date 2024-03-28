@@ -72,6 +72,15 @@ https://lordicon.com/
 -Carnival Cruise for images and some trips options used as examples for this Project.
 https://www.carnival.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQA73iNwbvjb6Cd8UVrUT6hCSl3_S8un3MFqRlaMvjasVfEdn8Wv56qxoCBhMQAvD_BwE&gclsrc=aw.ds 
     
+React Icons
+Reactstrap Library and Documentation
+React Bootstrap Documenation
+EmailJS Documentation
+Stripe Documentation
+JWT Documentation
+How to use react-icons to install Font Awesome in a React app 
+How to integrate Stripe with a React Application
+Apollo Documentation
 
 
 Deployed app :     https://mern-cruise-tour-01efbbed0b66.herokuapp.com/
