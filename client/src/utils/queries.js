@@ -69,5 +69,3 @@ export const QUERY_CHECKOUT = gql`
     }
   }
 `;
-
-`persistedQueries: false` 
