@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const server = new ApolloServer({
 
+  cache: new InMemoryLRUCache(),
   typeDefs,
   resolvers,
   context: authMiddleware,
