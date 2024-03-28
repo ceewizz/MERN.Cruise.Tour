@@ -24,8 +24,8 @@ stripe (npm install stripe --save
 
 Client (Front end)
 
-reactstrap (npm install reactstrap react react-dom)
-bootstrap (npm install --save bootstrap)
+<p>reactstrap (npm install reactstrap react react-dom)</p>
+<p>bootstrap (npm install --save bootstrap) </p>
 react Icons (npm install react-icons --save)
 react (npm i react)
 react toastify (npm install --save react-toastify)
