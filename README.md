@@ -63,23 +63,34 @@ and more ss
 
 <p>Login to checkout</p>
 
-![alt text](signintocheckout.png)
+![alt text](client/public/images/signintocheckout.png)
+
+![alt text](login.png)
+
+![alt text](loginprofile.png)
+
+![alt text](signinchecko.png)
 
 <p>Installing App option to local storage</p>
 
-![alt text](Appinstall.png)
+![alt text](client/public/images/Appinstall.png) 
 
-![alt text](Appinstall2-1.png)
+![alt text](client/public/images/Appinstall2.png) 
 
-![alt text](Appinstall3-1.png)
+![alt text](client/public/images/Appinstall3.png)
+
+
 
 <p>Sign up for account</p>
 
-![alt text](signup.png)
+![alt text](client/public/images/signup.png)
+
+
 
 <p>Contact and About Section </p>
 
-![alt text](contactabout.png)
+![alt text](client/public/images/contactabout.png)
+
 
 
 
