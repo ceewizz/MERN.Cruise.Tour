@@ -2,7 +2,7 @@ const express = require('express');
 
 // Importing the apollo server
 const { ApolloServer } = require('apollo-server-express');
-`persistedQueries: false` ;
+
 const path = require('path');
 require('dotenv').config();
 
@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const server = new ApolloServer({
   persistedQueries: false,
-  cache: new InMemoryLRUCache(),
+ 
   typeDefs,
   resolvers,
   context: authMiddleware,
