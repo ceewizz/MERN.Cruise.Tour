@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "server":"node --max-old-space-size={size-value} server/server.js",
     "test": "node server.js",
     "start": "node server.js"
   },

@@ -7,9 +7,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build:staging": "env-cmd -f .env.staging npm run build",
     "start": "react-scripts start",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
+    "dev_more_mem": "NODE_OPTIONS=\"--max-old-space-size=8192\" next dev",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
@@ -18,9 +18,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "all": "^0.0.0",
     "env-cmd": "^10.1.0",
     "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1",
-    "start": "^5.1.0"
+    "start": "^5.1.0",
+    "win-node-env": "^0.6.1"
   }
 }
