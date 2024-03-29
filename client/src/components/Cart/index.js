@@ -15,6 +15,7 @@ import './style.css';
 const stripePromise = loadStripe('pk_test_51OwcnoRwDCl99wsRX54l2U8TbH2SnGgp4vcyNIIWVZcRZcnT9JWdMO0hhHt7S6NVoE2EGzHIXKuD4QjhyY4GYX27007vGNNcqu');
 
 
+
 const Cart = () => {
     const [state, dispatch] = useStoreContext();
     const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
@@ -32,6 +33,7 @@ const Cart = () => {
         const cart = await idbPromise('cart', 'get');
         dispatch({ type: ADD_MULTIPLE_TO_CART, products: [...cart] });
       }
+     
   
       if (!state.cart.length) {
         getCart();
