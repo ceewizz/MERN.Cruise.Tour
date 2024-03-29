@@ -71,6 +71,10 @@ and more ss
 
 ![alt text](signinchecko.png)
 
+<p>Stripe Payment</p>
+
+![alt text](client/public/images/stripepayment.png)
+
 <p>Installing App option to local storage</p>
 
 ![alt text](client/public/images/Appinstall.png) 
