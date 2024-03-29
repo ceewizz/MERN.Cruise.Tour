@@ -203,14 +203,14 @@ input:focus {
 }
 
 .errorMessage {
-  color: #f45532;
+  color: red;
   font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
 #notifyToast {
-  color: #fff;
+  color: bisque;  
   border-radius: 6px;
   width: 200px;
   margin-left: 75px;
@@ -292,7 +292,7 @@ input:focus {
 
 /* Media Screen */
 
-/* Media Screen - Contact */
+/* Contact */
 @media (max-width: 768px) {
   .submit-message {
     width: 125px;

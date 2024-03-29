@@ -14,7 +14,7 @@ const db = require('./config/connection');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const server = new ApolloServer({
-
+  persistedQueries: false,
   cache: new InMemoryLRUCache(),
   typeDefs,
   resolvers,
@@ -48,11 +48,11 @@ if (process.env.NODE_ENV === 'production') {
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });
-  `persistedQueries: false` 
+
 
   db.once('open', () => {
     app.listen(PORT, () => {
-      `persistedQueries: false` 
+  
       console.log(`API server running on port ${PORT}!`);
       console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
     })
