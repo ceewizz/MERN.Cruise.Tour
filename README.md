@@ -51,6 +51,7 @@ Client (Front end)
 
 
 <p>MVC Module below</p>
+
 ![alt text](mvcpattern.png)
 
 and more ss
@@ -66,7 +67,7 @@ and more ss
 ![alt text](family7.png)
 
 
-#### Contributors
+#### Build By
 Chris Huynh
 
 
@@ -77,15 +78,15 @@ https://lordicon.com/
 -Carnival Cruise for images and some trips options used as examples for this Project.
 https://www.carnival.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQA73iNwbvjb6Cd8UVrUT6hCSl3_S8un3MFqRlaMvjasVfEdn8Wv56qxoCBhMQAvD_BwE&gclsrc=aw.ds 
     
-React Icons
-Reactstrap Library and Documentation
-React Bootstrap Documenation
-EmailJS Documentation
-Stripe Documentation
-JWT Documentation
-How to use react-icons to install Font Awesome in a React app 
-How to integrate Stripe with a React Application
-Apollo Documentation
+<p>React Icons</p>
+<p>Reactstrap Library and Documentation</p>
+<p>React Bootstrap Documenation</p>
+<p>EmailJS Documentation</p>
+<p>Stripe Documentation</p>
+<p>JWT Documentation</p>
+<p>How to use react-icons to install Font Awesome in a React app</p> 
+<p>How to integrate Stripe with a React Application</p>
+<p>Apollo Documentation</p>
 
 
 
