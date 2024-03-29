@@ -18,7 +18,7 @@ Server (back end)
 <p>graphql (npm install graphql)</p>
 <p>jsonwebtoken (npm install jsonwebtoken)</p>
 <p>mongoose (npm install mongoose)</p>
-<p>stripe (npm install stripe --save</p>
+<p>stripe (npm install stripe --save)</p>
 
 
 
@@ -60,6 +60,29 @@ and more ss
 ![alt text](client/public/images/packagespage.png)
 
 ![alt text](client/public/images/solopackage.png)
+
+<p>Login to checkout</p>
+
+![alt text](signintocheckout.png)
+
+<p>Installing App option to local storage</p>
+
+![alt text](Appinstall.png)
+
+![alt text](Appinstall2-1.png)
+
+![alt text](Appinstall3-1.png)
+
+<p>Sign up for account</p>
+
+![alt text](signup.png)
+
+<p>Contact and About Section </p>
+
+![alt text](contactabout.png)
+
+
+
 
 
 ![alt text](family4.png)
