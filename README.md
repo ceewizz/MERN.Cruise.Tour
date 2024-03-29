@@ -11,14 +11,14 @@ In addition, the following npm packages were installed to this application:-
 
 Server (back end)
 
-apollo-server-express (npm i apollo-server-express)
-bcrypt (npm installl bcrypt)
-dotenv (npm install dotenv)
-express (npm install express)
-graphql (npm install graphql)
-jsonwebtoken (npm install jsonwebtoken)
-mongoose (npm install mongoose)
-stripe (npm install stripe --save
+<p>apollo-server-express (npm i apollo-server-express)</p>
+<p>bcrypt (npm installl bcrypt)</p>
+<p>dotenv (npm install dotenv)</p>
+<p>express (npm install express)</p>
+<p>graphql (npm install graphql)</p>
+<p>jsonwebtoken (npm install jsonwebtoken)</p>
+<p>mongoose (npm install mongoose)</p>
+<p>stripe (npm install stripe --save</p>
 
 
 
@@ -26,33 +26,31 @@ Client (Front end)
 
 <p>reactstrap (npm install reactstrap react react-dom)</p>
 <p>bootstrap (npm install --save bootstrap) </p>
-react Icons (npm install react-icons --save)
-react (npm i react)
-react toastify (npm install --save react-toastify)
-jwt-decode (npm install jwt-decode)
-validator (npm i validator)
-@emailjs/browser (npm install @emailjs/browser)
-web vitals (npm install web-vitals)
-react-hook-form (npm install react-hook-form)
-react-router-dom (npm i react-router-dom)
-react-scripts (npm i react-scripts)
-moment (npm i moments)
-graphql-tag(npm i graphql-tag)
-graphql (npm install graphql)
-emailjs (npm install emailjs)
-date-fns (date-fns)
-stripe (npm install stripe --save)
-apollo-link-context (npm i apollo-link-context)
-apollo Client (npm i @apollo/client)
-react apollo-hooks (npm install @apollo/react-hooks)
-apollo-boost (npm i apollo-boost)
-
-
-npm run seed
-run develop
+<p>react Icons (npm install react-icons --save)</p>
+<p>react (npm i react)</p>
+<p>react toastify (npm install --save react-toastify)</p>
+<p>jwt-decode (npm install jwt-decode)</p>
+<p>validator (npm i validator)</p>
+<p>@emailjs/browser (npm install @emailjs/browser)</p>
+<p>web vitals (npm install web-vitals)</p>
+<p>react-hook-form (npm install react-hook-form)</p>
+<p>react-router-dom (npm i react-router-dom)</p>
+<p>react-scripts (npm i react-scripts)</p>
+<p>moment (npm i moments)</p>
+<p>graphql-tag(npm i graphql-tag)</p>
+<p>graphql (npm install graphql)</p>
+<p>emailjs (npm install emailjs)</p>
+<p>date-fns (date-fns)</p>
+<p>stripe (npm install stripe --save)</p>
+<p>apollo-link-context (npm i apollo-link-context)</p>
+<p>apollo Client (npm i @apollo/client)</p>
+<p>react apollo-hooks (npm install @apollo/react-hooks)</p>
+<p>apollo-boost (npm i apollo-boost)</p>
 
 
 
+
+<p>MVC Module below</p>
 ![alt text](mvcpattern.png)
 
 and more ss
