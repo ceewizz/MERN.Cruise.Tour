@@ -1,3 +1,6 @@
+import {ApolloServerPluginLandingPageProductionDefault } from '@apollo/server';
+import {ApolloServerPluginLandingPageLocalDefault } from '@apollo/server';
+
 const express = require('express');
 
 // Importing the apollo server
@@ -18,6 +21,8 @@ const server = new ApolloServer({
   persistedQueries: false,
   typeDefs,
   resolvers,
+  plugins: [ ApolloServerPluginLandingPageLocalDefault(),
+    ApolloServerPluginLandingPageProductionDefault()],
   context: authMiddleware,
 
 
