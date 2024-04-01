@@ -53,7 +53,7 @@ const startApolloServer = async (typeDefs, resolvers) => {
   db.once('open', () => {
     app.listen(PORT, () => {
     console.log(`API server running on port ${PORT}!`);
-      console.log(`Use GraphQL at: https://mern-cruise-tour-01efbbed0b66.herokuapp.com:${PORT}${server.graphqlPath}`);
+      console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
     })
 
   })
