@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> d30bb3d803abc23fbff2366d1781980826df6d6e
 const express = require('express');
 
 // Importing the apollo server
