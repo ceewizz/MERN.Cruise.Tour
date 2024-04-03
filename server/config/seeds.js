@@ -1,6 +1,7 @@
 const db = require('./connection');
 const { User, Product, Category } = require('../models');
-
+import smallfamImage from ('../client/images/family4.png');
+import bigfamImage from ('../client/images/family7.png'); 
 db.once('open', async () => {
     await Category.deleteMany();
 
@@ -20,7 +21,7 @@ db.once('open', async () => {
             name: 'Family Package 4 days Baja Mexico',
             category: categories[0]._id,
             description: 'This package is a family package is for a Family of 4 for 4 days cruise starting from  Long beach > Catalina > Ensenada > Back to Long Beach. Prices includes a 2 room 2 person(s) per room, one free Buffet per family of 4 is included. On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: 'family4.png',
+            image: 'smallfamImage',
             price: 1000.00,
             quantity: 20
         },
@@ -28,7 +29,7 @@ db.once('open', async () => {
             name: 'Family Package 7 days Europe',
             category: categories[0]._id,
             description: 'Destination sailing starts from Lisbon > La Coruna > Bilbao > Le Verdon > Paris > London.  Price includes a 2 rooms 2 person(s) per room. 3 free dinner buffet ticket per person for a family of 4,  On board activities included: Waterworks, Swimming Pool movie cinema. Additional cost activities: Spa, Clubs, Casino.',
-            image: 'family7.png',
+            image: 'bigfamImage',
             price: 4000.00,
             quantity: 20
 
